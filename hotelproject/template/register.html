@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<h2 style=color:Violet> REG FORM </h2>
+<form  action="register" method="post">
+    {% csrf_token %}
+    <input style=background-color:RosyBrown type="text" name="username" placeholder="Enter ur username"><br>
+    <input style=background-color:DeepSkyBlue type="text" name="first_name" placeholder="Enter your 1st name:"><br>
+    <input style=background-color:PowderBlue type="text" name="last_name" placeholder="Enter your last name:"><br>
+    <input style=background-color:CadetBlue type="email" name="email" placeholder="Enter your email"><br>
+    <input style=background-color:Plum type="password" name="password" placeholder="enter your password"><br>
+    <input style=background-color:Thistle type="password" name="Confirm password" placeholder="enter your confirm password"><br>
+    <input style=background-color:Turquoise type="submit"><br>
+</form>
+</body>
+</html>
